@@ -1,14 +1,11 @@
-<p align="center">
-  <img src="https://img.shields.io/badge/AnalystLab%20Africa-Experience%20Lab-0b5ea8?style=for-the-badge" alt="AnalystLab Africa"/>
-</p>
+# HealthConnect Clinic - Data Analytics Track
 
-# HealthConnect Clinic – Data Analytics Track
 ### AnalystLab Africa | Experience Lab Internship Programme
 
-**Prepared by:** Richard GNALOU
-**Role:** Junior Business Intelligence Analyst
-**Track:** Data Analytics
-**Current Phase:** Week 4 – Problem Understanding
+- **Prepared by:** Richard GNALOU
+- **Role:** Junior Business Intelligence Analyst
+- **Track:** Data Analytics
+- **Current Phase:** Week 4 - Problem Understanding
 
 ---
 
@@ -17,7 +14,8 @@
 HealthConnect Clinic is a fictional healthcare provider facing several operational challenges: missed appointments, inefficient use of appointment slots, repetitive patient enquiries, and a general need to improve patient engagement.
 
 ### Central Project Question
-> **How can HealthConnect Clinic use data and AI to reduce missed appointments and improve the patient support experience?**
+
+> How can HealthConnect Clinic use data and AI to reduce missed appointments and improve the patient support experience?
 
 This is a shared project across five internship tracks (Project Management, Data Analytics, Data Science, Machine Learning Engineering, Generative AI), each contributing from their professional angle. This repository covers the **Data Analytics** contribution.
 
@@ -29,38 +27,34 @@ The Data Analytics track is responsible for exploring the appointment dataset to
 
 ---
 
-## Repository Structure
-
-healthconnect-week4/
+## Repository Structurehealthconnect-week4/
 ├── README.md
 ├── data/
-│ ├── raw/ # Original, untouched project resources
-│   ├── HealthConnect_Appointment_Data.csv
-│   └── HealthConnect_Data_Dictionary.xlsx
-│ 
+│ └── raw/
+│ ├── HealthConnect_Appointment_Data.csv
+│ └── HealthConnect_Data_Dictionary.xlsx
 ├── notebooks/
-│ └── week4_initial_analysis.ipynb # Full exploration, quality checks, KPI exploration
+│ └── week4_initial_analysis.ipynb
 ├── reports/
-│ ├── week4_initial_analysis_document.md / .pdf
-│ └── week4_project_summary.md / .pdf
+│ ├── week4_initial_analysis_document.pdf
+│ └── week4_project_summary.pdf
 └── docs/
-└── data_dictionary_notes.md / .pdf # Cross-check and variable-by-variable review
-
+└── data_dictionary_notes.pdf
 
 ---
 
-##  Week 4 Deliverables
+## Week 4 Deliverables
 
 | Deliverable | Status |
 |---|---|
 | Dataset overview | Done |
-| Data quality assessment (missing values, logical rules, cross-field consistency) |  Done |
-| Relevant business questions (5) |  Done |
-| Potential KPIs identified & justified (5) |  Done |
-| Initial analysis approach |  Done |
-| Assumptions, limitations, risks & dependencies |  Done |
-| Week 4 Project Summary |  Done |
-| Data Dictionary cross-check |  Done |
+| Data quality assessment (missing values, logical rules, cross-field consistency) | Done |
+| Relevant business questions (5) | Done |
+| Potential KPIs identified & justified (5) | Done |
+| Initial analysis approach | Done |
+| Assumptions, limitations, risks & dependencies | Done |
+| Week 4 Project Summary | Done |
+| Data Dictionary cross-check | Done |
 
 ---
 
@@ -73,7 +67,7 @@ healthconnect-week4/
 - **Weak signals:** distance to clinic and waiting time show little standalone relationship with attendance in this dataset.
 - **Data quality:** dataset is clean and consistent with the data dictionary, with one flagged anomaly: 9 cases of the same patient having two appointment records at the same date/time slot.
 
-Full detail and methodology in `reports/week4_initial_analysis_document.pdf` and `notebooks/week4_initial_analysis.ipynb`.
+Full detail and methodology are available in `reports/week4_initial_analysis_document.pdf` and `notebooks/week4_initial_analysis.ipynb`.
 
 ---
 
@@ -85,10 +79,10 @@ Full detail and methodology in `reports/week4_initial_analysis_document.pdf` and
 
 ---
 
-##  How to Reproduce
+## How to Reproduce
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/Ricardo1826/healthconnect-clinic-analytics.git
 cd healthconnect-week4
 pip install pandas numpy jupyter openpyxl
 jupyter notebook notebooks/week4_initial_analysis.ipynb
@@ -96,7 +90,7 @@ jupyter notebook notebooks/week4_initial_analysis.ipynb
 
 ---
 
-##  Proposed Focus for Week 5
+## Proposed Focus for Week 5
 
 - Formal statistical validation (correlation analysis / simple logistic regression) on the three strongest signals: prior no-show history, reminder status/channel, booking lead time.
 - Segment-level visualisations of no-show and lost-capacity rates.
@@ -105,7 +99,7 @@ jupyter notebook notebooks/week4_initial_analysis.ipynb
 
 ---
 
-##  Notes
+## Notes
 
 - Original project resources in `data/raw/` are kept untouched, per project guidelines.
 - This analysis uses correlational observations only; no causal claims are made at this stage.
@@ -113,4 +107,4 @@ jupyter notebook notebooks/week4_initial_analysis.ipynb
 
 ---
 
-<p align="center"><i>AnalystLab Africa – Data Analytics Internship Programme</i></p>
+*AnalystLab Africa – Data Analytics Internship Programme*
